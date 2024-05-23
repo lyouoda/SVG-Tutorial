@@ -1,0 +1,14 @@
+<svg viewBox="0 0 24 24" width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      line {
+        stroke: currentColor;
+        stroke-width: 2;
+        stroke-linecap: round;
+      }
+    </style>
+    <line x1="2" y1="4.2" x2="22" y2="4.2"/>
+    <line x1="8" y1="9.4" x2="22" y2="9.4"/>
+    <line x1="2" y1="14.6" x2="22" y2="14.6"/>
+    <line x1="8" y1="19.8" x2="22" y2="19.8"/>
+  </svg>
+  

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Tutorial</title>
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(to right, rgb(34, 33, 31), rgb(201, 215, 192));
+            z-index: -10;
+        }
+
+        svg,
+        .svg {
+            padding: 0.5em;
+            width: 35px;
+            border-radius: 10px;
+        }
+
+        svg line {
+            stroke-linecap: round;
+        }
+
+        svg:hover,
+        .svg:hover {
+            background-color: rgb(213, 214, 205);
+        }
+
+        #google-svg {
+            width: 1em;
+        }
+
+        a {
+            color: rgb(56, 49, 40);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(176, 120, 37);
+        }
+
+        .audio label {
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Show SVG file</h1>
+    <h2>menus</h2>
+    <img class="svg" src="menus/right-aligned-menu.svg" />
+    <img class="svg" src="menus/left-aligned-menu.svg" />
+    <img class="svg" src="menus/center-aligned-menu.svg" />
+    <h2>circles</h2>
+    <img class="svg" src="circles/right-arrow.svg" />
+    <img class="svg" src="circles/info.svg" />
+    <img class="svg" src="circles/cloc.svg" />
+    <h2>polygons</h2>
+    <img class="svg" src="polygons/calender.svg" />
+    <img class="svg" src="polygons/warning.svg" />
+    <h2>paths</h2>
+    <img class="svg" src="paths/calender.svg" />
+    <img class="svg" src="paths/external-link2.svg" />
+    <img class="svg" src="paths/external-link.svg" />
+    <img class="svg" src="paths/pause.svg" />
+    <img class="svg" src="paths/play.svg" />
+
+    <p><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">To Google <img id="google-svg"
+                src="paths/external-link2.svg" alt=""></a></p>
+
+    <hr>
+
+    <div class="audio">
+        <h2>Let's Listen Music!</h2>
+        <label for="">pause</label><img class="svg" src="paths/pause.svg" /> 
+        <img class="svg" src="paths/play.svg" /> <label for="">play</label>
+    </div>
+
+    <footer>
+        <p>Copy Right: Ryou Onoda</p>
+        <p>mail: <a href="mailto:sample@example.com">sample@example.com</a></p>
+    </footer>
+</body>
+
+</html>
